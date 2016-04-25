@@ -1,0 +1,14 @@
+body {
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	background-color: black;
+	color: lightgray;
+	font-size: 100%;
+	text-align: justify;
+}
+
+#content {
+	background-color: black;
+	width: 800px;
+	margin: auto;
+	border: 0px solid white;
+}
