@@ -1,0 +1,25 @@
+body {
+	font-family: 'Droid Sans', Helvetica, sans-serif;
+	background-color: black;
+	color: BFBFBF;
+	font-size: 95%;
+}
+
+#content {
+	background-color: black;
+	width: 800px;
+	margin: auto;
+	border: 0px solid white;
+}
+
+a {
+    color: #E6E6FA;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: blue;
+}
