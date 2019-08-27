@@ -1,8 +1,8 @@
 body {
 	font-family: 'Droid Sans', Helvetica, sans-serif;
 	background-color: black;
-	color: BFBFBF;
-	font-size: 100%;
+	color: #BFBFBF;
+	font-size: 105%;
 }
 
 #content {
@@ -13,7 +13,8 @@ body {
 }
 
 a {
-    color: #E6E6FA;
+	/* color: #E6E6FA; */
+	color: #BFBFBF;
 }
 
 a:hover {
