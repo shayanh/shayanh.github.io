@@ -1,0 +1,6 @@
+[submodule "hugo-xmin"]
+	path = hugo-xmin
+	url = git@github.com:shayanh/hugo-xmin.git
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = git@github.com:shayanh/hugo-xmin.git
