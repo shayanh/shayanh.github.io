@@ -5,6 +5,8 @@ theme = "hugo-xmin"
 footnotereturnlinkcontents = "↩"
 pygmentsuseclasses = true 
 
+staticDir = ["static"]
+
 [[menu.main]]
     name = "Home"
     url = "/"
@@ -17,3 +19,6 @@ pygmentsuseclasses = true
     name = "Academics"
     url = "/academics/"
     weight = 3
+
+[markup.goldmark.renderer]
+unsafe= true
