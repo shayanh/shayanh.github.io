@@ -1,5 +1,5 @@
 ---
-title: About
+title: Home 
 ---
 
 Hello, I'm Shayan Hosseini.

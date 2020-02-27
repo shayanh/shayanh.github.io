@@ -3,9 +3,10 @@ languageCode = "en-us"
 title = "Shayan Hosseini"
 theme = "hugo-xmin"
 footnotereturnlinkcontents = "↩"
+pygmentsuseclasses = true 
 
 [[menu.main]]
-    name = "About"
+    name = "Home"
     url = "/"
     weight = 1
 [[menu.main]]
