@@ -4,8 +4,7 @@ title: Home
 
 <img style="display: inline-block; float:right; margin: 10px 0px 0px 10px;" height="200" width="200" src="/shayan2.jpg" alt="Shayan" />
 
-My name is Shayan Hosseini, natively written as شایان حسینی.
-
+My name is Shayan Hosseini, natively written as شایان حسینی.\
 I am currently an undergraduate student pursuing a Bachelor's in Computer Engineering at the [ECE Department]("http://ece.ut.ac.ir/) of the [University of Tehran](http://ut.ac.ir/).
 
 From 2015 to 2019 I was working at [Cafebazaar](http://cafebazaar.ir/), the most popular Android application store in Iran with more than 35 million users. I was a Technical Lead and Product Manager at the infrastructure team building a distributed object storage and a content delivery network. I am one the co-founders of Cafebazaar Cloud, which is a subsidiary of Cafebazaar that provides public cloud services to the other companies.
@@ -26,5 +25,5 @@ You can find my CV [here](/shayan-cv.pdf).
 
 #### Contact:
 
-Email me to shayan dot hosseini at ut.ac.ir
+Email me to shayan dot hosseini at ut.ac.ir\
 [GitHub](https://github.com/shayanh), [LinkedIn](https://ir.linkedin.com/in/shayan-hosseini-049053100), [Twitter](https://twitter.com/seshayanh)
