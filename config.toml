@@ -15,10 +15,6 @@ staticDir = ["static"]
     name = "Blog"
     url = "/blog/"
     weight = 2
-[[menu.main]]
-    name = "Academics"
-    url = "/academics/"
-    weight = 3
 
 [markup.goldmark.renderer]
 unsafe= true
