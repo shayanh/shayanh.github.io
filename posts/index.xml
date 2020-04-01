@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Shayan Hosseini</title>
-    <link>/blog/</link>
+    <link>/posts/</link>
     <description>Recent content in Blog on Shayan Hosseini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Feb 2020 16:37:11 +0330</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
