@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Favorite Quotes on Shayan Hosseini</title>
+    <link>/fav-quotes/</link>
+    <description>Recent content in Favorite Quotes on Shayan Hosseini</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2020 19:42:56 +0430</lastBuildDate><atom:link href="/fav-quotes/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
