@@ -1,13 +1,11 @@
+body {
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+}
 code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
-  direction: ltr;
 }
-
-p:lang(fa), h1:lang(fa), a:lang(fa) {
-  font-family: 'sahel';
-}
-
-body {
-  font-family: 'Roboto', Optima, Candara, Calibri, Arial, sans-serif;
+tt {
+  font-family: "Menlo", "Monaco", "Courier", monospace;
+  font-size: 85%;
 }
