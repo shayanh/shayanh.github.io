@@ -13,6 +13,9 @@ body {
   background: #eee;
   padding: 5px;
   border-radius: 5px;
+  border: solid;
+  border-color: #C7C8C9;
+  font-size: large;
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -52,6 +55,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 .social {
     padding: 5px;
+    /* font-size: large; */
 }
 
 .pub-btn {
