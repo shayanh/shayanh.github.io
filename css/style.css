@@ -62,5 +62,5 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 .pub-btn {
     --bs-btn-padding-y: .10rem;
-    font-size: 11px;
+    font-size: 12px;
 }
