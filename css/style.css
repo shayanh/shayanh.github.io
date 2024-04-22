@@ -1,5 +1,5 @@
 body {
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
   padding: 1em;
   line-height: 1.5;
@@ -8,17 +8,31 @@ body {
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu a {
+  color: #24292e;
   text-decoration: none;
   background: #eee;
   padding: 5px;
   border-radius: 5px;
-  border: solid;
-  border-color: #C7C8C9;
-  border-width: 1px;
-  font-size: large;
+  /*text-decoration: none;*/
+  /*background: #eee;*/
+  /*padding: 5px;*/
+  /*border-radius: 5px;*/
+  /*border: solid;*/
+  /*border-color: #C7C8C9;*/
+  /*border-width: 1px;*/
+  /*font-size: large;*/
 }
-.menu, .article-meta, footer { text-align: center; }
+
+.menu a:hover {
+    background: #24292e;
+    color: white;
+}
+.menu a:active, .menu a:hover {
+  outline-width: 0;
+}
+
+.menu, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
@@ -28,8 +42,8 @@ hr {
 
 /* code */
 pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
+  border: 1px solid #ccc;
+  /*box-shadow: 5px 5px 5px #eee;*/
   padding: 1em;
   overflow-x: auto;
 }
@@ -60,7 +74,65 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
     /* font-size: large; */
 }
 
-.pub-btn {
+.markdown-body .pub-btn {
     --bs-btn-padding-y: .10rem;
     font-size: 12px;
+    text-decoration: none;
+}
+
+.markdown-body .pub-btn:hover {
+    text-decoration: none;
+}
+
+.markdown-body a {
+  color: #24292e;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.markdown-body a:hover {
+    background: #24292e;
+    color: white;
+}
+.markdown-body a:active, .markdown-body a:hover {
+  outline-width: 0;
+}
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul.posts {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li.index {
+    border-bottom: 1px dashed gray;
+}
+
+li.index a {
+    text-decoration: none;
+}
+
+li.index:hover, li.index:hover a {
+    background: #24292e;
+    color: white;
+}
+
+li.index .post-date {
+    display: inline;
+    float: right;
+    font-family: 'IBM Plex Sans', monospace;
+    margin-right: .5rem;
+    /* border-bottom: 1px solid #6a737d; */
+    font-weight: 300;
+}
+
+.article-meta {
+    font-family: 'IBM Plex Sans', monospace;
+    font-weight: 400;
 }
